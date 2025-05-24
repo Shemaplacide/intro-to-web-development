@@ -11,3 +11,128 @@
 }
 
 /* Write your code below this */
+.navbar {
+  width: 100%;
+  padding: 26px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li{
+display:inline-block;
+list-style-type : none;
+margin: 0 12px; 
+
+}
+.hero{
+  background-image: url('images/hero.png');
+  height: 500px;
+  padding-top: 219px;
+  padding-left: 103px;
+}
+h1 {
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+button {
+
+padding: 12px 30px;
+background: #52647E;
+color: white;
+border-radius: 10px;
+}
+.journey{
+  background: #618379;
+  padding: 57px 0;
+}
+h2{
+  color: white;
+  padding: 32px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 57px;
+}
+.journey-list{
+  display: flex;
+  width: 80%;
+  margin: 0 10%;
+  justify-content: space-between;
+}
+.journey-card{
+  width: 30%;
+  background-color: white;
+  padding: 25px;
+  border-radius: 40px;
+  color: gray;
+}
+.journey-image{
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+.h3{
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 12px;
+}
+footer{
+  background: #333232;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+ #about-me {
+  background-color: white;
+  color: black;
+  padding: 100px;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;         /* Center text */
+ font-weight: 500; /* Medium boldness (between normal and bold) */
+}
+
+#about-me-title {
+  font-size: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+  
+html {
+  scroll-behavior: smooth;
+}
+
+#goals{
+ background-color: lightgray;
+  color: black;
+  padding: 100px;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;         /* Center text */
+ font-weight: 500; /* Medium boldness (between normal and bold) */
+}
+#goals-title{
+font-size: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+/* Navbar link styles */
+.navbar-items a {
+  text-decoration: none;        /* Remove underline */
+  color: black;                 /* Set default color */
+  font-weight: 500;
+  transition: all 0.3s ease;    /* Smooth effect for hover/click */
+}
+
+/* Hover effect */
+.navbar-items a:hover {
+  color: #52647E;               /* Change color on hover */
+  transform: scale(1.05);       /* Slight zoom */
+}
+
+/* Active/click effect */
+.navbar-items a:active {
+  color: #314256;               /* Darker on click */
+  transform: scale(0.95);       /* Slight shrink on click */
+}
